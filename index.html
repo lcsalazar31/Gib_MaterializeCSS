@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Curso Materialize</title>
+
+  <!--CSS DE MATERIALIZE-->
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<!-- <link rel="stylesheet" href="css/style.css"> -->
+</head>
+<body>
+  
+  <nav>
+    <div class="nav-wrapper">
+      <div class="col s12">
+        <a href="#!" class="brand-logo">Logo</a>
+
+        <a href="#" data-activates="mobile-demo" class="button-collapse">
+          <i class="mdi-navigation-menu"></i>
+        </a>
+        
+        <ul class="dropdown-content" id="dropdown1">
+          <li><a href="#">Components</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4 Components</a></li>
+          <li><a href="#">4 Components</a></li>
+          <li><a href="#">4</a></li>
+        </ul>
+
+
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#">Sass</i></a></li>
+          <li><a href="">Components</a></li>
+          <li><a href="">Javascript</a></li>
+          <li><a href="mobile.html">Mobile</a></li>
+          <li>
+            <a href="" class="dropdown-button" data-activates="dropdown1">
+              Menu Desplegable <i class="mdi-navigation-arrow-drop-down right"></i>
+            </a>
+          </li>
+        </ul>
+
+        <ul class="side-nav right" id="mobile-demo">
+          <li><a href="sass.html">Sass</i></a></li>
+          <li><a href="components.html">Components</a></li>
+          <li><a href="javascript.html">Javascript</a></li>
+          <li><a href="mobile.html">Mobile</a></li>
+          <li>
+            <a href="" class="dropdown-button" data-activates="dropdown1">
+              Menu Desplegable <i class="mdi-navigation-arrow-drop-down right"></i>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+	 
+  <div class="container">
+    <div class="row">
+      <a href="#" class="btn" onclick="toast('Soy una alerta', 3000, 'rounded')">Toasts</a>
+    </div>
+    <br>
+    <div class="row">
+      <a href="#" class="btn tooltipped" data-position="left" data-tooltip="Hola Soy un tooltips">Toltips</a>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <h2>Collapsible</h2>
+        <ul class="collapsible" data-collapsible="accordion">
+          <li>
+            <div class="collapsible-header">Elemento 1</div>
+            <div class="collapsible-body"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam distinctio harum eius iste voluptates fugit suscipit voluptatum magnam tempora velit quod quis corrupti, laborum aspernatur quaerat quidem neque, incidunt dolorem.</p></div>
+          </li>
+
+          <li>
+            <div class="collapsible-header">Elemento 2</div>
+            <div class="collapsible-body"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam distinctio harum eius iste voluptates fugit suscipit voluptatum magnam tempora velit quod quis corrupti, laborum aspernatur quaerat quidem neque, incidunt dolorem.</p></div>
+          </li>
+
+          <li>
+            <div class="collapsible-header">Elemento 3</div>
+            <div class="collapsible-body"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam distinctio harum eius iste voluptates fugit suscipit voluptatum magnam tempora velit quod quis corrupti, laborum aspernatur quaerat quidem neque, incidunt dolorem.</p></div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--JS DE MATERIALIZE-->
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<!--JS-->
+  <script src="js/main.js"></script> 
+</body>
+</html>
