@@ -10,6 +10,7 @@
 </head>
 <body>
   
+  
   <nav>
     <div class="nav-wrapper">
       <div class="col s12">
@@ -56,8 +57,55 @@
       </div>
     </div>
   </nav>
-	 
+   
   <div class="container">
+    
+    <div class="row">
+      
+      <div class="col s4">
+        <a href="#" class="btn btn-large waves-effect" onclick="return false;">Boton1</a>
+      </div>
+      <div class="col s4">
+        <a class="btn-flat btn-large waves-effect" onclick="return false;">Boton2</a>
+      </div>
+      <div class="col s4">
+        <a class="btn-floating red btn-large waves-effect" onclick="return false;">Boton3</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s12">
+        <ul class="tabs">
+          <li class="tab col s3"><a href="#test1">Test 1</a></li>
+          <li class="tab col s3"><a class="active" href="#test2">Test 2</a></li>
+          <li class="tab col s3"><a href="#test3">Test 3</a></li>
+          <li class="tab col s3"><a href="#test4">Test 4</a></li>
+        </ul>
+      </div>
+      <div id="test1" class="col s12">Test 1</div>
+      <div id="test2" class="col s12">Test 2</div>
+      <div id="test3" class="col s12">Test 3</div>
+      <div id="test4" class="col s12">Test 4</div>
+    </div>
+    <hr>
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>Modal Header</h4>
+        <p>A bunch of text</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#" class="waves-effect waves-green btn-flat modal-action modal-close">Agree</a>
+      </div>
+    </div>
+    <br>
+    
+    <div class="row">
+      <div class="col 12">
+        <h2>Modal</h2>
+        <a href="#modal1" class="btn modal-trigger">Modal</a>
+      </div>
+    </div>
+    <hr>
     <div class="row">
       <div class="col s12">
         <h1>Slider</h1>
@@ -117,6 +165,31 @@
       </div>
     </div>
   </div>
+  <hr>
+  <div class="parallax-container">
+      <div class="parallax">
+          <img src="img/img1.jpg">
+      </div>
+      <div class="container">
+          <h1>Texto</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore praesentium, voluptate itaque explicabo nulla fugiat repellendus in facilis omnis repudiandae corporis tempora distinctio nam exercitationem optio quo accusamus provident vitae.</p>
+      </div>
+  </div>
+  <div class="parallax-container">
+      <div class="parallax">
+          <img src="img/img2.jpg">
+      </div>
+  </div>
+  <div class="parallax-container">
+      <div class="parallax">
+          <img src="img/img3.jpg">
+      </div>
+  </div>
+  <div class="parallax-container">
+      <div class="parallax">
+          <img src="img/img4.png">
+      </div>
+  </div>
   <!--JS DE MATERIALIZE-->
 	<script src="js/jquery-2.1.3.min.js"></script>
 	<script src="js/materialize.min.js"></script>
@@ -124,3 +197,4 @@
   <script src="js/main.js"></script> 
 </body>
 </html>
+
